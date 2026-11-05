@@ -16,12 +16,12 @@
 ## 개발 환경
 | 항목 | 내용 |
 |---|---|
-| OS | Ubuntu 22.04 (Humble 기준 가정, 확인 필요) |
+| OS | Ubuntu 22.04 (jammy) |
 | ROS 2 | Humble |
 | PX4 | v1.18.0-beta1-372-gf365bf32c0 (v1.18 베타 이후 main 개발 빌드) |
 | Gazebo | Gazebo multi-robot simulator, version 11.10.2
 | PX4 ↔ ROS 2 연결 | uXRCE-DDS (Micro XRCE-DDS Agent, UDP 8888) |
-| ROS 2 ↔ Gazebo 연결 | ros_gz_bridge (`ros-humble-ros-gzharmonic`) — 카메라 영상 등 |
+| ROS 2 ↔ Gazebo 연결 | gazebo_ros_pkgs (`ros-humble-gazebo-ros-pkgs`, 예: `libgazebo_ros_camera.so`) — 카메라 영상 등 |
 | 주 언어 | Python |
 
 버전이 다르면 명령어와 API가 달라지므로, 위 표를 기준으로 답할 것. 불확실하면 먼저 확인 질문을 할 것.
